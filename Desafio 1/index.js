@@ -40,3 +40,4 @@ console.log(productManager.getProduct())
 productManager.addProduct("prueba de producto","soy una descripcion", 100, "noimg", Math.floor(Math.random() * 100), 12)
 productManager.addProduct("prueba de otro producto","soy otra descripcion", 150, "noimg", Math.floor(Math.random() * 100), 19)
 console.log(productManager.getProduct())
+console.log(productManager.getProductById(1));
