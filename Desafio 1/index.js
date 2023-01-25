@@ -24,8 +24,8 @@ class ProductManager{
         this.products.push(newProduct)
     }
 }
-    getProductById = () =>{
-        const filter = this.products.find((element) => element.idProduct === idProduct)
+    getProductById(id){
+        const filter = this.products.find((element) => element.idProduct === id)
         return(filter || ("no se enontraron elementos"))
     }
 }
