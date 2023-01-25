@@ -25,8 +25,12 @@ class ProductManager{
     }
 }
     getProductById(id){
-        const filter = this.products.find((element) => element.idProduct === id)
-        return(filter || ("no se enontraron elementos"))
+        let filter = this.products.find(product => product.idProduct === id);
+        if(filter === undefined){
+            return "Ningun elemento encontrado";
+        }else{
+            return filter;
+        }
     }
 }
 
@@ -34,4 +38,5 @@ let productManager = new ProductManager()
 console.log(productManager)
 console.log(productManager.getProduct())
 productManager.addProduct("prueba de producto","soy una descripcion", 100, "noimg", Math.floor(Math.random() * 100), 12)
+productManager.addProduct("prueba de otro producto","soy otra descripcion", 150, "noimg", Math.floor(Math.random() * 100), 19)
 console.log(productManager.getProduct())
