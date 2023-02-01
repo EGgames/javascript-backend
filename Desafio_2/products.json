@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Soy una prueba",
+        "description":"Prueba de elemento",
+        "price":"50",
+        "thumbnail":"sin img",
+        "idProduct": 1,
+        "stock":"12"},
+    {
+        "title":"Souy otra prueba",
+        "description":"Prueba de elemento",
+        "price":"46",
+        "thumbnail":"sin img",
+        "idProduct": 2,
+        "stock":"19"
+    }
+]
