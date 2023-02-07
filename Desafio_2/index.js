@@ -97,7 +97,7 @@ const productManager = new ProductManager();
 //Creacion de productos
 productManager.addProduct('Producto 1', 'Descripcion del producto 1', 20, 'img/product1.jpg', 'P1', 20);
 productManager.addProduct('Producto 2', 'Descripcion del producto 2', 25, 'img/product2.jpg', 'P2', 10);
-productManager.addProduct('Producto 3', 'Descripcion del producto 3', 30, 'img/product2.jpg', 'P3', 12);
+productManager.addProduct('Producto 3', 'Descripcion del producto 3', 30, 'img/product3.jpg', 'P3', 12);
 
 console.log(productManager.getProducts()); // [{id: 1, title: 'Producto 1', ...}, {id: 2, title: 'Producto 2', ...}]
 console.log(productManager.getProductById(1)); // {id: 1, title: 'Producto 1', ...}
