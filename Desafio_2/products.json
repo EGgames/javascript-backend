@@ -1,17 +1,21 @@
+
 [
+	{
+		"title": "prueba",
+		"description": "soy una descripcion",
+		"price": 200,
+		"thumbnail": "sin img",
+		"code": "353272",
+		"stock": 20,
+		"id": 1
+	},
     {
-        "title":"Soy una prueba",
-        "description":"Prueba de elemento",
-        "price":"50",
-        "thumbnail":"sin img",
-        "idProduct": 1,
-        "stock":"12"},
-    {
-        "title":"Souy otra prueba",
-        "description":"Prueba de elemento",
-        "price":"46",
-        "thumbnail":"sin img",
-        "idProduct": 2,
-        "stock":"19"
-    }
+		"title": "prueba 2",
+		"description": "soy una descripcion",
+		"price": 200,
+		"thumbnail": "sin img",
+		"code": "534552",
+		"stock": 30,
+		"id": 2
+	}
 ]
