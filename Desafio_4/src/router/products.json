@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Soy un titulo",
+    "description": "soy una descripcion",
+    "code": "1",
+    "price": 1000,
+    "status": true,
+    "stock": 3,
+    "category": "Categoria",
+    "thumbnail": "noimg",
+    "id": 1
+  },
+  {
+    "title": "Soy otro titulo",
+    "description": "Soy otra descripcion",
+    "code": "SG1",
+    "price": 1500,
+    "status": true,
+    "stock": 19,
+    "category": "Categoria",
+    "thumbnail": "noimg",
+    "id": 2
+  }
+]
